@@ -1,0 +1,37 @@
+# Build artifacts
+build/
+cmake-build-*/
+*.o
+*.a
+*.so
+*.elf
+*.bin
+*.out
+*.map
+
+# IDE and editor
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+*.sublime-workspace
+
+# Test coverage
+coverage/
+*.gcda
+*.gcno
+gcov_report/
+
+# Generated files
+*.log
+*.tmp
+compile_commands.json
+
+# Dependencies
+third_party/downloaded/
+conan/
+
+# OS specific
+.AppleDouble
+Thumbs.db
